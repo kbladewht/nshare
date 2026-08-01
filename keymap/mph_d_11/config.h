@@ -24,8 +24,6 @@
 #define EECONFIG_CLI_MODE (uint8_t *)42
 #define EECONFIG_RGB_MATRIX_STATUS2 (uint8_t *)43
 
-#define DYNAMIC_KEYMAP_LAYER_COUNT 8
-
 #define DYNAMIC_KEYMAP_LAYER_COUNT 16
 #define DEVICE_NAME_0                   "MPH‑S BLE 1"                         /**< Name of device. Will be included in the advertising data. */
 #define DEVICE_NAME_1                   "MPH‑S BLE 2"                         /**< Name of device. Will be included in the advertising data. */
