@@ -1,0 +1,24 @@
+{
+  "keyboard_name": "P40 LA3.b67X",
+  "manufacturer": "PILOT",
+  "url": "",
+  "maintainer": "qmk",
+  "usb": {
+    "vid": "0x05AC",
+    "pid": "0x0220",
+    "device_version": "0.0.1"
+  },
+  
+  "processor": "cortex-m4",
+  "bootloader": "tinyuf2",  
+  "rgb_matrix": {
+    "timeout": 1800000
+  },
+  "layouts": {
+    "LAYOUT_54": {
+      "layout": [{"label":"Esc", "x":0, "y":0}, {"label":"F1", "x":2, "y":0}, {"label":"F2", "x":3, "y":0}, {"label":"F3", "x":4, "y":0}, {"label":"F4", "x":5, "y":0}, {"label":"F5", "x":6.5, "y":0}, {"label":"F6", "x":7.5, "y":0}, {"label":"F7", "x":8.5, "y":0}, {"label":"F8", "x":9.5, "y":0}, {"label":"F9", "x":11, "y":0}, {"label":"F10", "x":12, "y":0}, {"label":"F11", "x":13, "y":0}, {"label":"F12", "x":14, "y":0}, {"label":"PrtSc", "x":15.25, "y":0}, {"label":"Scroll Lock", "x":16.25, "y":0}, {"label":"Pause", "x":17.25, "y":0}, 
+                 {"label":"~", "x":0, "y":1.5}, {"label":"!", "x":1, "y":1.5}, {"label":"@", "x":2, "y":1.5}, {"label":"#", "x":3, "y":1.5}, {"label":"$", "x":4, "y":1.5}
+                ]
+    }
+  }
+}
