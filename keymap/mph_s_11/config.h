@@ -85,7 +85,6 @@
 
 #define BLE_BLINK_LED_ENABLE
 #define SLEEP_COUNTER_MAX 1
-#define QF_RGB_ENABLED
 // #define BLE_BLINK_RGB_ENABLE
 
 /*lint -emacro(524, MIN_CONN_INTERVAL) // Loss of precision */

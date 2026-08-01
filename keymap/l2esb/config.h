@@ -109,7 +109,6 @@
 #define RGB_MATRIX_WS2812
 // #define MOUSE_ENABLE
 #define QF_TX_POWER 4
-// #define QF_RGB_ENABLED
 #define NO_PRINT
 #undef xprintf
 #define xprintf(fmt, ...) NRF_LOG_INFO(fmt, ##__VA_ARGS__)
