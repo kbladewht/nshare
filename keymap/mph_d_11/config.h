@@ -80,8 +80,6 @@
 
 #define QF_3V3
 
-#define SLEEP_TIME 8 //seconds
-
 #define BLE_SYSTEM_OFF_SEC 1800
 
 
