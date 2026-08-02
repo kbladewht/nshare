@@ -50,48 +50,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         { BL_SW_1, BL_SW_2, BL_SW_3, RADIO_ESB },  // 第三行：蓝牙通道1、蓝牙通道2、蓝牙通道3、2.4G射频切换
         { RM_PREV, RM_NEXT, RM_HUED, RM_HUEU }     // 第四行：上一灯光、下一灯光、色相减少、色相增加
     },
-    // Layer2 备用层，全部按键透传
-    [2] = {
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },    // 第一行：全部透传
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },    // 第二行：全部透传
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },    // 第三行：全部透传
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS }     // 第四行：全部透传
-    },
-    // Layer3 空层，全透传
-    [3] = {
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS }
-    },
-    // Layer4 空层，全透传
-    [4] = {
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS }
-    },
-    // Layer5 空层，全透传
-    [5] = {
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS }
-    },
-    // Layer6 空层，全透传
-    [6] = {
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS }
-    },
-    // Layer7 空层，全透传
-    [7] = {
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS }
-    }
 };
 
 extern bool process_record_user_cb(uint16_t keycode, keyrecord_t *record) ;
