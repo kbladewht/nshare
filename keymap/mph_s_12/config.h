@@ -26,9 +26,9 @@
 
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 16
-#define DEVICE_NAME_0                   "MPH‑S BLE 1"                         /**< Name of device. Will be included in the advertising data. */
-#define DEVICE_NAME_1                   "MPH‑S BLE 2"                         /**< Name of device. Will be included in the advertising data. */
-#define DEVICE_NAME_2                   "MPH‑S BLE 3"                         /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME_0                   "MPH-S BLE 1"                         /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME_1                   "MPH-S BLE 2"                         /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME_2                   "MPH-S BLE 3"                         /**< Name of device. Will be included in the advertising data. */
 
 // #define VIAL_KEYBOARD_UID {0x6C, 0xD9, 0xA6, 0x5A, 0xE8, 0xA3, 0x7A, 0x8B}
 #define VIAL_KEYBOARD_UID { 0xCD, 0x09, 0x03, 0x02, 0x20, 0xF5, 0x28, 0x33 }
