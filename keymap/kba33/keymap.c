@@ -13,7 +13,7 @@
 
 extern rgb_config_t rgb_matrix_config;
 
-#define LAYOUT_5X8( \
+#define LAYOUT_58( \
 	K00, K01, K02, K03, K04, K05, K06, K07, \
 	K10, K11, K12, K13, K14, K15, K16, K17, \
 	K20, K21, K22, K23, K24, K25, K26, K27, \
@@ -85,7 +85,7 @@ extern bool is_temporary_breathing;
 extern uint32_t breathing_timer;
 extern void restore_previous_state(void);
 void matrix_scan_user_qf(void) {
-    if (is_temporary_breathing && timer_expired32(timer_read32(), breathing_timer)) {
-        restore_previous_state();
-    }
+    // if (is_temporary_breathing && timer_expired32(timer_read32(), breathing_timer)) {
+    //     restore_previous_state();
+    // }
 }
