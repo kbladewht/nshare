@@ -23,7 +23,7 @@ mxkbd_append_user_src(../../../cross/keys_hold.c)
 mxkbd_append_user_src(../../../cross/ble_major.c)
 mxkbd_append_user_src(../../../cross/qf_channel_manage.c)
 mxkbd_append_user_src(../../../cross/rtc_qf.c)
-mxkbd_append_user_src(../../../common/74hc595.c)
+# mxkbd_append_user_src(../../../common/74hc595.c)
 # mxkbd_append_user_src(matrix_qf.c) inlcuded in parrent folder matrix_scan_user
 
 mxkbd_append_user_src(../../../common/matrix_l3.c)
