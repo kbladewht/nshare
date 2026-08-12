@@ -1,0 +1,58 @@
+{
+  "name": "M A44",
+  "vendorId": "0x05AC",
+  "productId": "0x0220",
+  "lighting": "qmk_rgblight",
+  "matrix": {
+    "rows": 5,
+    "cols": 8
+  },
+  "customKeycodes": [
+    {
+      "name": "BLE_1",
+      "title": "Channel_1",
+      "shortName": "BLE1"
+    },
+    {
+      "name": "BLE_2",
+      "title": "Channel_2",
+      "shortName": "BLE2"
+    },
+    {
+      "name": "BLE_3",
+      "title": "Channel_3",
+      "shortName": "BLE3"
+    },
+    {
+      "name": "BLE2.4G ",
+      "title": "Turn to 2.4G mode",
+      "shortName": "2.4G"
+    },
+    {
+      "name": "USB",
+      "title": "USB Mode",
+      "shortName": "USB"
+    },
+    {
+      "name": "DelBonds",
+      "title": "DelBonds",
+      "shortName": "Del\nBonds"
+    },
+    {
+      "name": "KB_LOCK",
+      "title": "KB_LOCK",
+      "shortName": "KB\nLock"
+    },
+    {
+      "name": "RESET_KB",
+      "title": "Erase all Ble Channels",
+      "shortName": "Reset\nKB"
+    }
+  ],
+  "layouts": {
+    "keymap": 
+    [
+    
+]
+  }
+}
