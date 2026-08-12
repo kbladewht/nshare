@@ -22,15 +22,6 @@ mxkbd_append_user_src(../../../cross/keys_hold.c)
 mxkbd_append_user_src(../../../cross/ble_major.c)
 mxkbd_append_user_src(../../../cross/qf_channel_manage.c)
 mxkbd_append_user_src(../../../cross/rtc_qf.c)
-<<<<<<< HEAD
-# mxkbd_append_user_src(../../../common/74hc595.c)
-# mxkbd_append_user_src(matrix_qf.c) inlcuded in parrent folder matrix_scan_user
-
-mxkbd_append_user_src(../../../common/matrix_l3.c)
-
-mxkbd_append_user_src(../../../common/rgb_t.c)
-=======
->>>>>>> 6f8d5a665ba13b510b38331d5dbdb2b09ccbecbf
 
 mxkbd_set_user_ld(Ld/nrf52833.ld)
 add_compile_definitions(QMK_MCU_NRF52833)
