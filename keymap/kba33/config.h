@@ -40,10 +40,8 @@
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 8
 
-// #define THIS_DEVICE_ROWS 4
 #define THIS_DEVICE_COLS 8
-#define MATRIX_ROW_PINS { 41, 43, 0, 33, 34 }
-//C0 to C4 thsi si 840 version , pls note 1.13/1.05  NA/1.11 025/1.10
+#define MATRIX_ROW_PINS { 41, 33, 0, 1, 2 }
 #define MATRIX_COL_PINS { 28, 4, 29, 15, 17, 20, 9, 10 } 
 
 #define POWER_PIN GPIO(0,3)
