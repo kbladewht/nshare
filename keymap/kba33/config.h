@@ -41,7 +41,7 @@
 #define MATRIX_COLS 8
 
 #define THIS_DEVICE_COLS 8
-#define MATRIX_ROW_PINS { 41, 33, 0, 1, 2 }
+#define MATRIX_ROW_PINS { 41, 11, 0, 1, 2 }
 #define MATRIX_COL_PINS { 28, 4, 29, 15, 17, 20, 9, 10 } 
 
 #define POWER_PIN GPIO(0,3)
