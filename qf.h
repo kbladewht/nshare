@@ -59,6 +59,8 @@ enum custom_keycodes {
     DEL_BONDS,
     KB_LOCK,
     RESET_KB,
+    ADC_SHOW,
+    RADIO_DFU,
     TOG_QF_UNDER,
     LED_QF_KEYLIGHT
 };

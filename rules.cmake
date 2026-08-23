@@ -12,19 +12,21 @@ set(GRAVE_ESC_ENABLE ON CACHE BOOL "KB" FORCE)
 
 set(BOOTLOADER_TYPE "uf2" CACHE STRING "KB" FORCE)
 
-
+mxkbd_append_user_inc(../common)
 mxkbd_append_user_inc(../cx)
 
 mxkbd_append_user_src(output_select.c)
 mxkbd_append_user_src(../common/power_m.c)
 mxkbd_append_user_src(../common/power_hibernate.c)
 mxkbd_append_user_src(../common/nmain.c)
+mxkbd_append_user_src(../common/adc.c)
 mxkbd_append_user_src(../common/ble_keyboard.c)
 mxkbd_append_user_src(../common/power_manage_qf.c)
 mxkbd_append_user_src(n40.c)
 mxkbd_append_user_src(../common/board_support.c)
 mxkbd_append_user_src(call_back_qf.c)
 mxkbd_append_user_src(qfly_custom_animation.c)
+mxkbd_append_user_src(../cross/kb_lock.c)
 
 mxkbd_append_user_src(eeprom_qf.c)
 mxkbd_append_user_src(matrix_qf.c)

@@ -71,7 +71,6 @@
 
 #define BATTERY_PIN NRF_SAADC_INPUT_VDDHDIV5 
 #define  QF_BATTERY_ENABLE
-#define QF_NRF_LOG_ENABLED 0
 
 #define QF_3V3
 #define KEYBOARD_FAST_SCAN_INTERVAL 1 // 通常模式下，多久扫描一次键盘 (ms)

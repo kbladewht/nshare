@@ -85,7 +85,7 @@ extern bool is_temporary_breathing;
 extern uint32_t breathing_timer;
 extern void restore_previous_state(void);
 void matrix_scan_user_qf(void) {
-    // if (is_temporary_breathing && timer_expired32(timer_read32(), breathing_timer)) {
-    //     restore_previous_state();
-    // }
+    if (is_temporary_breathing && timer_expired32(timer_read32(), breathing_timer)) {
+        restore_previous_state();
+    }
 }
