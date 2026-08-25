@@ -111,10 +111,11 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 // clang-format off
 led_config_t g_led_config = { 
     {
-        { 0,    1,   2,    3 }, 
-        { 7,    6,   5,    4 }, 
-        { 8,    9,  10,   11 }, 
-        { 15,  14,  13,   12  }
+        { 3,    2,   1,    0 }, 
+        { 4,    5,   6,    7 }, 
+        { 10,   9,   8}, 
+        { 11,  12,  13,   14 }, 
+        { 17,  16,  15}
     },{
         {  0, 0 }, { 19, 0 }, { 38, 0 }, { 57, 0 }, // LED 0~3  row0
         { 57,19 }, { 38,19 }, { 19,19 }, {  0,19 }, // LED 4~7  row1

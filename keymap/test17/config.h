@@ -26,21 +26,21 @@
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 8
 
-#define DEVICE_NAME_0                   "Air16 BLE1"                         /**< Name of device. Will be included in the advertising data. */
-#define DEVICE_NAME_1                   "Air16 BLE2"                         /**< Name of device. Will be included in the advertising data. */
-#define DEVICE_NAME_2                   "Air16 BLE3"                         /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME_0                   "Air17 BLE1"                         /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME_1                   "Air17 BLE2"                         /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME_2                   "Air17 BLE3"                         /**< Name of device. Will be included in the advertising data. */
 
 // #define VIAL_KEYBOARD_UID {0x6C, 0xD9, 0xA6, 0x5A, 0xE8, 0xA3, 0x7A, 0x8B}
-#define VIAL_KEYBOARD_UID { 0xCD, 0x09, 0x03, 0x02, 0x20, 0xF5, 0x28, 0x33 }
+#define VIAL_KEYBOARD_UID { 0xCD, 0x09, 0x03, 0x02, 0x20, 0xF5, 0x28, 0x33 }  /*Not Sure*/
 #define RAW_HID_ENABLE
 
 #define LOCKING_SUPPORT_ENABLE
 #define LOCKING_RESYNC_ENABLE
 
-#define MATRIX_ROWS 4
+#define MATRIX_ROWS 5    /*Changed For Air17*/
 #define MATRIX_COLS 4
 
-#define THIS_DEVICE_ROWS 4
+#define THIS_DEVICE_ROWS 5  /*Changed For Air17*/
 #define THIS_DEVICE_COLS 4
 
 #define COMBO_TERM 200
@@ -72,11 +72,11 @@
 #define LED_BLINK_SLOW_INTERVAL APP_TIMER_TICKS(2000)
 #define DFU_MAGIC_SKIP                  0x6d
 
-#define RGB_MATRIX_LED_COUNT 16
+#define RGB_MATRIX_LED_COUNT 17 /*Changed For Air17*/
 #define A11 11
 
 #define BATTERY_PIN NRF_SAADC_INPUT_VDDHDIV5 
-#define  QF_BATTERY_ENABLE
+#define QF_BATTERY_ENABLE
 #define QF_NRF_LOG_ENABLED 1
 
 #define QF_3V3
