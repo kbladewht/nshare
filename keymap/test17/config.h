@@ -65,8 +65,8 @@
 #define STATE_LED NRF_GPIO_PIN_MAP(0, 3) /*Changed For Air17*/
 #define STATE_LED_01 NRF_GPIO_PIN_MAP(0, 3) /*Changed For Air17*/
 #define STATE_LED_02 NRF_GPIO_PIN_MAP(0, 3) /*Changed For Air17*/
-#define STATE_LED_03 NRF_GPIO_PIN_MAP(0, 31) /*Bluetooth LED Pin? Changed For Air17*/
-// #define STATE_RADIO_04 NRF_GPIO_PIN_MAP(0,31) /*Bluetooth LED Pin? Changed For Air17*/
+#define STATE_LED_03 NRF_GPIO_PIN_MAP(0, 3) /*Changed For Air17*/
+#define STATE_RADIO_04 NRF_GPIO_PIN_MAP(0,31) /*Bluetooth LED Pin? Changed For Air17*/
 
 
 #define LED_BLINK_FAST_INTERVAL APP_TIMER_TICKS(100)
@@ -102,7 +102,7 @@
 #define log(fmt, ...) NRF_LOG_INFO(fmt, ##__VA_ARGS__)
 // #define NO_ACTION_TAPPING
 #define RGB_MATRIX_WS2812
-// #define MOUSE_ENABLE
+#define MOUSE_ENABLE
 #define QF_TX_POWER 4
 
 #define APP_ADV_FAST_DURATION               3000                                       /**< The advertising duration of fast advertising in units of 10 milliseconds. */
