@@ -17,22 +17,22 @@
                  {"label":"*", "x":2, "y":0},
                  {"label":"-", "x":3, "y":0},
 
-                 {"label":"7\nHome", "x":0, "y":1},
-                 {"label":"8\n↑", "x":1, "y":1},
-                 {"label":"9\nPgUp", "x":2, "y":1},
+                 {"label":"7 Home", "x":0, "y":1},
+                 {"label":"8 ↑", "x":1, "y":1},
+                 {"label":"9 PgUp", "x":2, "y":1},
                  {"label":"+", "x":4, "y":1, "h":2},
   
-                 {"label":"4\n←", "x":0, "y":2},
+                 {"label":"4 ←", "x":0, "y":2},
                  {"label":"5", "x":1, "y":2},
-                 {"label":"6\n→", "x":2, "y":2},
+                 {"label":"6→", "x":2, "y":2},
   
-                 {"label":"1\nEnd", "x":0, "y":3},
-                 {"label":"2\n↓", "x":1, "y":3},
-                 {"label":"3\nPgDn", "x":2, "y":3},
+                 {"label":"1End", "x":0, "y":3},
+                 {"label":"2↓", "x":1, "y":3},
+                 {"label":"3PgDn", "x":2, "y":3},
                  {"label":"Enter", "x":4, "y":3, "h":2},
   
-                 {"label":"0\nIns", "x":1, "y":4, "w":2},
-                 {"label":".\nDel", "x":2, "y":4}
+                 {"label":"0Ins", "x":1, "y":4, "w":2},
+                 {"label":".Del", "x":2, "y":4}
   
                 ]
     }
