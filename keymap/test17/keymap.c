@@ -13,19 +13,7 @@
 
 extern rgb_config_t rgb_matrix_config;
 
-// #define LAYOUT_17( \
-//     K00, K01, K02, K03, \
-//     K10, K11, K12, K13, \
-//     K20, K21, K22,      \
-//     K30, K31, K32, K33, \
-//     K40,      K42       \
-// ) { \
-//     { K00, K01, K02, K03 }, \
-//     { K10, K11, K12, K13 }, \
-//     { K20, K21, K22, XXX }, \
-//     { K30, K31, K32, K33 }, \
-//     { K40, XXX, K42, XXX } \
-// }
+
 enum combos {
     COMBO_SW_LAYER1,
     COMBO_TOTAL_COUNT
