@@ -62,11 +62,11 @@
 
 #define STATE_LED_ACTIVE 1
 
-#define STATE_LED NRF_GPIO_PIN_MAP(0, 3) /*Changed For Air17*/
-#define STATE_LED_01 NRF_GPIO_PIN_MAP(0, 3) /*Changed For Air17*/
-#define STATE_LED_02 NRF_GPIO_PIN_MAP(0, 3) /*Changed For Air17*/
-#define STATE_LED_03 NRF_GPIO_PIN_MAP(0, 3) /*Changed For Air17*/
-#define STATE_RADIO_04 NRF_GPIO_PIN_MAP(0,31) /*Bluetooth LED Pin? Changed For Air17*/
+#define STATE_LED NRF_GPIO_PIN_MAP(0, 3) /*Reserved for Numlock Changed For Air17*/
+#define STATE_LED_01 NRF_GPIO_PIN_MAP(0, 31) /*Bluetooth LED Pin Changed For Air17*/
+#define STATE_LED_02 NRF_GPIO_PIN_MAP(0, 31) /*Bluetooth LED Pin Changed For Air17*/
+#define STATE_LED_03 NRF_GPIO_PIN_MAP(0, 31) /*Bluetooth LED Pin Changed For Air17*/
+#define STATE_RADIO_04 NRF_GPIO_PIN_MAP(0,31) /*2.4G LED Pin Changed For Air17*/
 
 
 #define LED_BLINK_FAST_INTERVAL APP_TIMER_TICKS(100)
