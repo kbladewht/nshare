@@ -45,16 +45,16 @@
 
 #define COMBO_TERM 200
 
-#define MATRIX_ROW_PINS { 17, 20, 0, 29}
-#define MATRIX_COL_PINS { 15, 31, 30, 4 }
+#define MATRIX_ROW_PINS { 28, 4, 41, 29, 20}  /*Changed For Air17*/
+#define MATRIX_COL_PINS {  2, 0,   1,  5 }     /*Changed For Air17*/
 //13+32= 45 p1.13=p1.05 for e73
 //C0 to C4 thsi si 840 version , pls note 1.13/1.05  NA/1.11 025/1.10
-#define LED_PIN GPIO(0,24)
+#define LED_PIN GPIO(0,11)    /*RGB LED Pin? Changed For Air17*/
 // #define CHARGED_PIN GPIO(1,0)
 // #define CHARGING_PIN CAPSPIN
-#define POWER_PIN GPIO(1,9)
+#define POWER_PIN GPIO(0,15) /*Changed For Air17*/
 
-#define CAPS_LOCK_IO GPIO(1,2)
+// #define CAPS_LOCK_IO GPIO(1,2)
 
 #define USE_BATTERY_PIN NRF_SAADC_INPUT_AIN0
 #define BATTERY_VMAX 4100
@@ -62,10 +62,12 @@
 
 #define STATE_LED_ACTIVE 1
 
-#define STATE_LED NRF_GPIO_PIN_MAP(0, 2)
-#define STATE_LED_01 NRF_GPIO_PIN_MAP(0, 28)
-#define STATE_LED_02 NRF_GPIO_PIN_MAP(0, 3)
-#define STATE_LED_03 NRF_GPIO_PIN_MAP(0, 2)
+#define STATE_LED NRF_GPIO_PIN_MAP(0, 3) /*Changed For Air17*/
+#define STATE_LED_01 NRF_GPIO_PIN_MAP(0, 3) /*Changed For Air17*/
+#define STATE_LED_02 NRF_GPIO_PIN_MAP(0, 3) /*Changed For Air17*/
+#define STATE_LED_03 NRF_GPIO_PIN_MAP(0, 31) /*Bluetooth LED Pin? Changed For Air17*/
+// #define STATE_RADIO_04 NRF_GPIO_PIN_MAP(0,31) /*Bluetooth LED Pin? Changed For Air17*/
+
 
 #define LED_BLINK_FAST_INTERVAL APP_TIMER_TICKS(100)
 #define LED_BLINK_FAST_INTERVAL_RGB APP_TIMER_TICKS(3000)
