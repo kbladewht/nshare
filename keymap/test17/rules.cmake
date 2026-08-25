@@ -24,6 +24,7 @@ mxkbd_append_user_src(../../../cross/ble_major.c)
 mxkbd_append_user_src(../../../cross/qf_channel_manage.c)
 mxkbd_append_user_src(../../../cross/rtc_qf.c)
 
+mxkbd_append_user_src(../../../common/rgb_t.c)
 
 mxkbd_set_user_ld(Ld/nrf52833.ld)
 add_compile_definitions(QMK_MCU_NRF52833)
