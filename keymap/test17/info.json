@@ -11,12 +11,29 @@
   "processor": "cortex-m4",
   "bootloader": "tinyuf2",
   "layouts": {
-    "LAYOUT_54": {
-      "layout": [{"label":"Esc", "x":0, "y":0}, {"label":"F1", "x":2, "y":0}, {"label":"F2", "x":3, "y":0}, {"label":"F3", "x":4, "y":0},
-                 {"label":"F4", "x":5, "y":0}, {"label":"F5", "x":6.5, "y":0}, {"label":"F6", "x":7.5, "y":0}, {"label":"F7", "x":8.5, "y":0}, 
-                 {"label":"F8", "x":9.5, "y":0}, {"label":"F9", "x":11, "y":0}, {"label":"F10", "x":12, "y":0}, {"label":"F11", "x":13, "y":0}, 
-                 {"label":"F12", "x":14, "y":0}, {"label":"PrtSc", "x":15.25, "y":0}, {"label":"Scroll Lock", "x":16.25, "y":0}, {"label":"Pause", "x":17.25, "y":0}, 
-                 {"label":"~", "x":0, "y":1.5}, {"label":"!", "x":1, "y":1.5}, {"label":"@", "x":2, "y":1.5}, {"label":"#", "x":3, "y":1.5}, {"label":"$", "x":4, "y":1.5}
+    "LAYOUT_17": {
+      "layout": [{"label":"Num Lock", "x":0, "y":0},
+                 {"label":"/", "x":1, "y":0},
+                 {"label":"*", "x":2, "y":0},
+                 {"label":"-", "x":3, "y":0},
+
+                 {"label":"7\nHome", "x":0, "y":1},
+                 {"label":"8\n↑", "x":1, "y":1},
+                 {"label":"9\nPgUp", "x":2, "y":1},
+                 {"label":"+", "x":4, "y":1, "h":2},
+  
+                 {"label":"4\n←", "x":0, "y":2},
+                 {"label":"5", "x":1, "y":2},
+                 {"label":"6\n→", "x":2, "y":2},
+  
+                 {"label":"1\nEnd", "x":0, "y":3},
+                 {"label":"2\n↓", "x":1, "y":3},
+                 {"label":"3\nPgDn", "x":2, "y":3},
+                 {"label":"Enter", "x":4, "y":3, "h":2},
+  
+                 {"label":"0\nIns", "x":1, "y":4, "w":2},
+                 {"label":".\nDel", "x":2, "y":4}
+  
                 ]
     }
   }
