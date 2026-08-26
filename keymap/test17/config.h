@@ -102,7 +102,7 @@
 #define log(fmt, ...) NRF_LOG_INFO(fmt, ##__VA_ARGS__)
 // #define NO_ACTION_TAPPING
 #define RGB_MATRIX_WS2812
-#define MOUSE_ENABLE
+// #define MOUSE_ENABLE
 #define QF_TX_POWER 4
 
 #define APP_ADV_FAST_DURATION               3000                                       /**< The advertising duration of fast advertising in units of 10 milliseconds. */

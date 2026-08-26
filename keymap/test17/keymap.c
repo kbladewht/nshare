@@ -14,16 +14,6 @@
 extern rgb_config_t rgb_matrix_config;
 
 
-enum combos {
-    COMBO_SW_LAYER1,
-    COMBO_TOTAL_COUNT
-};
-// 同时按下 KC_P7 + KC_P4 触发
-const uint16_t PROGMEM combo_mo1_keys[] = {KC_P7, KC_P4, COMBO_END};
-
-// combo_t key_combos[COMBO_TOTAL_COUNT] = {
-//     [COMBO_SW_LAYER1] = COMBO(combo_mo1_keys, MO(1)), // 7+4组合键，临时切换灯光/蓝牙层Layer1
-// };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // Layer0 基础数字层
@@ -41,55 +31,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         { BL_SW_1, BL_SW_2, BL_SW_3, KC_TRNS },    // 第三行：蓝牙通道1、蓝牙通道2、蓝牙通道3、透传
         { RM_PREV, RM_NEXT, KC_TRNS, KC_TRNS },    // 第四行：上一灯光、下一灯光、透传、透传
         { RM_HUED, RM_HUEU, KC_TRNS, KC_TRNS }     // 第五行：色相减少、色相增加、透传、透传
-    },
-    // Layer2 备用层，全部按键透传
-    [2] = {
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },    // 第一行：全部透传
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },    // 第二行：全部透传
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },    // 第三行：全部透传
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },    // 第四行：全部透传
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS }     // 第五行：全部透传
-    },
-    // Layer3 空层，全透传
-    [3] = {
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS }
-    },
-    // Layer4 空层，全透传
-    [4] = {
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS }
-    },
-    // Layer5 空层，全透传
-    [5] = {
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS }
-    },
-    // Layer6 空层，全透传
-    [6] = {
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS }
-    },
-    // Layer7 空层，全透传
-    [7] = {
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS },
-        { KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS }
     }
+
 };
 
 extern bool process_record_user_cb(uint16_t keycode, keyrecord_t *record) ;
