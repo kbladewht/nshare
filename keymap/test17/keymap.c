@@ -30,7 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         { KC_TRNS, RM_SPDD, RM_SPDU, RADIO_ESB },  // 第二行：透传、灯速减速、灯速加速、2.4G射频切换
         { BL_SW_1, BL_SW_2, BL_SW_3, KC_TRNS },    // 第三行：蓝牙通道1、蓝牙通道2、蓝牙通道3、透传
         { RM_PREV, RM_NEXT, KC_TRNS, KC_TRNS },    // 第四行：上一灯光、下一灯光、透传、透传
-        { RM_HUED, RM_HUEU, KC_TRNS, KC_TRNS }     // 第五行：色相减少、色相增加、透传、透传
+        { RM_HUED, KC_TRNS, RM_HUEU, KC_TRNS }     // 第五行：色相减少、色相增加、透传、透传
     }
 
 };
