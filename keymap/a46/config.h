@@ -48,7 +48,7 @@
 //C0 to C4 thsi si 840 version , pls note 1.13/1.05  NA/1.11 025/1.10
 #define MATRIX_COL_PINS { NO_PIN, NO_PIN, NO_PIN, NO_PIN, NO_PIN, \
                           NO_PIN, NO_PIN, NO_PIN, NO_PIN, NO_PIN, \
-                          NO_PIN}    
+                          NO_PIN,NO_PIN}    
 
 
 // 列 接到 74HC595 的哪个 Qx
@@ -116,7 +116,7 @@
 #define log(fmt, ...) NRF_LOG_INFO(fmt, ##__VA_ARGS__)
 // #define NO_ACTION_TAPPING
 #define RGB_MATRIX_WS2812
-#define MOUSE_ENABLE
+// #define MOUSE_ENABLE
 #define QF_TX_POWER 4
 #define QF_RGB_ENABLED
 #define NO_PRINT
