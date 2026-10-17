@@ -104,7 +104,7 @@
 
 #define BLE_SYSTEM_OFF_SEC 1800
 
-#define BLE_BLINK_LED_ENABLE
+// #define BLE_BLINK_LED_ENABLE
 #define SLEEP_COUNTER_MAX 1
 
 /*lint -emacro(524, MIN_CONN_INTERVAL) // Loss of precision */
