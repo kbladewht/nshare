@@ -27,9 +27,9 @@
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 16
 
-#define DEVICE_NAME_0                   "AIR42 BLE 1"                         /**< Name of device. Will be included in the advertising data. */
-#define DEVICE_NAME_1                   "AIR42 BLE 2"                         /**< Name of device. Will be included in the advertising data. */
-#define DEVICE_NAME_2                   "AIR42 BLE 3"     
+#define DEVICE_NAME_0                   "MiFeiQ BLE 1"                         /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME_1                   "MiFeiQ BLE 2"                         /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME_2                   "MiFeiQ BLE 3"     
 #define VIAL_KEYBOARD_UID { 0xCD, 0x09, 0x03, 0x02, 0x20, 0xF5, 0x28, 0x33 }
 #define RAW_HID_ENABLE
 
@@ -103,7 +103,7 @@
 #define BLE_SYSTEM_OFF_SEC 1800
 
 
-#define BLE_BLINK_LED_ENABLE
+// #define BLE_BLINK_LED_ENABLE
 #define SLEEP_COUNTER_MAX 1
 // #define QF_RGB_ENABLED
 // #define BLE_BLINK_RGB_ENABLE
