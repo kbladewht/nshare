@@ -135,5 +135,6 @@
 #define RGB_MATRIX_WS2812
 #define QF_595_ENABLED
 
-#define BLE_BLINK_RGB_ENABLE
+// #define BLE_BLINK_RGB_ENABLE
 // #define FORCE_NKRO
+#define CAPS_IO_RGB 23

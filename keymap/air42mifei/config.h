@@ -137,3 +137,4 @@
 
 // #define BLE_BLINK_RGB_ENABLE
 // #define FORCE_NKRO
+#define CAPS_IO_RGB 23

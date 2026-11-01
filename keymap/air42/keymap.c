@@ -215,33 +215,34 @@ led_config_t g_led_config = {
 
 	}
 };
+
+ extern bool              m_caps_on;                         /**< Variable to indicate if Caps Lock is turned on. */
+extern volatile bool usb_enabled_qf;
  bool rgb_matrix_indicators_kb(void) {
+    //usb 通道说明还是开着cap,就亮灯
      if (host_keyboard_led_state().caps_lock) {  // Capslock = RED
          rgb_matrix_set_color(23, 0, 200, 0);
-     }else{
-        if(rgb_matrix_get_flags() & LED_FLAG_KEYLIGHT){
-           
-        }else{
-             rgb_matrix_set_color(23, 0, 0, 0);
-        }
+         return true;
      }
-     return true;
+     
+     //蓝牙通道说明还是开着cap,就亮灯
+    if (m_caps_on && !usb_enabled_qf) {
+       rgb_matrix_set_color(23, 0, 200, 0);
+        return true;
+    }
+
+    //没开就关掉矩阵的这个灯
+    if(rgb_matrix_get_flags() & LED_FLAG_KEYLIGHT){
+        
+    }else{
+        rgb_matrix_set_color(23, 0, 0, 0);
+    }
+    
+    return true;
  }
 #endif
 
-// // keymap.c
-// #ifdef AUTO_SHIFT_NO_AUTO_REPEAT_PER_KEY
-// bool get_auto_shift_no_auto_repeat(uint16_t keycode, keyrecord_t *record) {
-//     // 对所有键禁用重复（或按需返回 true/false）
-//     return true;
-// }
-// #endif
 
-// #ifdef AUTO_SHIFT_REPEAT_PER_KEY
-// bool get_auto_shift_repeat(uint16_t keycode, keyrecord_t *record) {
-//     return false; // 示例：禁用重复
-// }
-// #endif
 
 extern void rtc_config(void);
 void keyboard_post_init_user(void) {

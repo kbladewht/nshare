@@ -33,7 +33,7 @@
 #include "qf.h"
 
 
-volatile bool usb_enabled_qf;
+extern volatile bool usb_enabled_qf;
 volatile bool vbus_enabled_qf;
 volatile bool auto_switch_qf = false;
 
